@@ -40,7 +40,6 @@
     display: flex;
 }
 
-
 /* Global */
 
 .page {
@@ -55,10 +54,8 @@
     color: var(--color-black);
     text-transform: uppercase;
     background-color: var(--color-white);
-    background-image: url("/img/background-photo.jpg");
     background-position: top center;
 }
-
 a {
     text-decoration: none;
 }
@@ -74,6 +71,14 @@ a:hover {
 
 
 /* Main navigation */
+.base-logo{
+    background-image: url("../img/background-photo.jpg");
+}
+.header-filter {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+}
 
 .main-navigation {
     font-size: 14px;
@@ -86,29 +91,57 @@ a:hover {
     background-color: var(--color-white);
 }
 
-.site-navigation {
+.site-navigation a {
     list-style: none;
     color: var(--color-black);
 }
+/* Search-Hotel */
+.search-hotel{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+}
 
+/* Buttons */
+.button-details{
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    }
+.button-details:hover{
+    background-color: var(--color-deepblue);
+}
+.button-details:active{
+    background-color: var(--color-darkblue);
+}
+
+.button-book{
+    color: var(--color-white);
+    background-color: var(--color-brown);
+}
+.button-book:hover{
+    background-color: var(--color-deepbrown);
+}
+
+.button-book:active{
+    background-color:var(--color-activebrown) ;
+}
 
 /* Features */
+
+.headers{
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
 
 .feature-item {
     text-align: center;
     list-style: none;
 }
 
-.feature-item h3 {
-    font-size: 21px;
+.feature-item .result-item {
+    font-size: 14px;
     line-height: 21px;
 }
-
-.feature-item h4 {
-    font-size: 21px;
-    line-height: 21px;
-}
-
 
 /* Main footer */
 
@@ -123,29 +156,25 @@ a:hover {
     background-repeat: repeat;
 }
 
-
-/* Footer contacts */
-
 .footer-contacts a {
     color: var(--color-black);
     text-decoration: underline;
+    
 }
-
 
 /* Social button */
 
-.social-button {
+.footer-social ul {
+    list-style: none
+}
+
+.social-button  {
     width: 46px;
     height: 48px;
     color: var(--color-white);
     background-color: var(--color-blue);
+    background-position: center;
 }
-
-.social-button {
-    list-style: none;
-    text-align: center;
-}
-
 
 /* Copyright */
 
